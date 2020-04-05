@@ -1,5 +1,9 @@
 # :whale: Conceitos iniciais do Docker:
 
+<p align="center">
+<img src="./.github/docker-logo.png" alt="Docker Logo" width="300" />
+</p>
+
 ## O que é Docker? :whale2:
 O docker é uma ferramenta de conteinerização, na qual é possível criar vários contêiners que podem servir para diversas razões.
 
@@ -132,5 +136,9 @@ docker rm container_name
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
 ---
+
+**Esse repositório foi feito com base no excelente vídeo da [Rocketseat](https://rocketseat.com.br/).**
+
+Para ver o material original, clique [aqui](https://www.youtube.com/watch?v=AVNADGzXrrQ).
 
 Feito com ❤ por João Pedro Araújo. [Veja meu Linkedin!](https://www.linkedin.com/in/jo%C3%A3o-pedro-731ab61a5/)
