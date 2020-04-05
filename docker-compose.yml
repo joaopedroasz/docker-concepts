@@ -1,0 +1,17 @@
+# Definindo a versão o compose:
+version: "3"
+
+# Definindo os serviços que o compose vai orquestrar:
+services: 
+  app:
+    # Qual o caminho para o dockerfile que será executado:
+    build: .
+    # Comando que será executado assim que a aplicação for pro ar:
+    command: yarn start
+    # Redirecionamento de portas:
+    ports: 
+      - "8000:8000"
+    # Identificando a pasta na qual as alterações vão ser espelhadas:
+    # Da pasta atual, para a pasta '/home/../Desenvolvimento'
+    volumes: 
+      - .:/home/joaopedroasz/Documentos/Desenvolvimento
