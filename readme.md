@@ -11,7 +11,7 @@ A utilização do docker pode reduzir o tempo de deloy da aplicação. Tendo em 
 Para instalar o docker, siga o paso-a-paso da documentação oficial clicando [aqui](https://docs.docker.com/install/).
 
 ## Utilizando o *Dockerfile*:
-Para ver um exemplo de *dockerfile* comentado clique [aqui](./Dockerfile).
+Para ver um exemplo de *dockerfile* comentado, clique [aqui](./Dockerfile).
 
 ## Rodando nosso projeto: :heavy_check_mark:
 Depois do *dockerfile* configurado, rode o comando:
@@ -119,3 +119,18 @@ docker stop container_name
 ```bash
 docker rm container_name
 ```
+
+---
+
+## 🤔 Como contribuir:
+
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+
+---
+
+Feito com ❤ por João Pedro Araújo. [Veja meu Linkedin!](https://www.linkedin.com/in/jo%C3%A3o-pedro-731ab61a5/)
